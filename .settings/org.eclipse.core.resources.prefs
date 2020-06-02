@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//src/com/NhaHang/dao=UTF-8
+encoding//src/com/NhaHang/dao/QuanLyBanDAO.java=UTF-8
+encoding//src/com/NhaHang/dao/QuanLyGopYDAO.java=UTF-8
+encoding//src/com/NhaHang/dao/QuanLyNhanVienDAO.java=UTF-8
+encoding//src/com/NhaHang/dao/QuanLyNhapHangDAO.java=UTF-8
+encoding//src/com/NhaHang/dao/QuanLySuKienDAO.java=UTF-8
+encoding//src/com/NhaHang/dao/QuanLyThucDonDAO.java=UTF-8
+encoding//src/com/NhaHang/dao/ShowChiTietBanDAO.java=UTF-8
+encoding//src/com/NhaHang/dao/ShowHoaDonDAO.java=UTF-8
+encoding//src/com/NhaHang/dao/ThongKeDAO.java=UTF-8
+encoding//src/com/NhaHang/dao/thietLapTaiKhoanDAO.java=UTF-8
+encoding//src/controller/showQuanLyThucDonServlet.java=UTF-8
+encoding//src/controller/thongKeServlet.java=UTF-8
+encoding/<project>=UTF-8

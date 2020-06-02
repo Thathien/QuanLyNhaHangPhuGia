@@ -1,0 +1,240 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: "Open Sans", Segoe UI light, Verdana, Tahoma,Helvetica,sans-serif;
+	font-size:13px;
+	color: #222; /* MAIN color for site things, but not for CONTENT!! */
+	
+}
+h3 {
+	text-align : center;
+	text-decoration : none;
+}
+p {
+	padding : 2%;
+}
+img {
+	text-align : center;
+	max-width : 100%;
+	height : auto;
+	width : auto;
+}
+#wrapper {
+	margin : 0 auto;
+	max-width : 980px;
+	width : 96%;
+	background : #CBBB9B;
+	padding : 2%;
+}
+header {
+	text-align : center;
+}
+nav {
+	background : #0A99D1;
+	padding : 0;
+	margin : 0 0;
+	margin-top: 5px;
+	margin-bottom: 1px;
+}
+
+nav a:hover, nav li.active a {
+	background-color : #E9A732;
+	color : #fff;
+}
+
+.active{
+	background-color : #E9A732;
+	color : #fff;
+	border-bottom-color: #FFF	
+}
+
+.clearfix {
+	clear : both;
+}
+#social {
+	text-align : center;
+	}
+#social img {
+	padding-top : 5px;
+	height : 50px;
+	width : 50px;
+}
+.left-col {
+	background : #0A99D1;
+	width : 100%;
+	float : left;
+	margin-top : 0.5%;
+}
+.sidebar {
+	background: peachpuff;
+	width : 19.5%;
+	float : left;
+	/*
+	margin-top : 0.5%;
+	margin-left: 0.25%;
+	margin-right: 0.25%;
+	*/
+	margin-top : 1.25%;
+	margin-left: 1%;
+	margin-right: 1%;
+	
+}
+
+.chefsBarLeft{
+	background: #B9DEEC;
+	width : 100%;
+	float : left;
+	margin-top : 0.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	display: block;
+}
+
+.chefsBarRight{
+	background: #B9DEEC;
+	width : 49.75%;
+	float : right;
+	margin-top : 0.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	display: block;
+}
+
+.copyChefsBar{
+	background: #B9DEEC;
+	width : 100%;
+	float : left;
+	margin-top : 0.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	display: none;
+}
+
+.menuLeftBar{
+	width : 11.5%;
+	float : left;
+	margin-top : 0.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	min-height: 200px;
+}
+
+.listFoodCalledBar{
+	width : 87.5%;
+	float : right;
+	margin-top : 0.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+#eventBar {
+	background: rgb(157, 238, 189);
+	width : 100%;
+	float : left;
+	margin-top : 0.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	
+}
+
+
+#tableBar {
+	width : 96%;
+	float : left;
+	margin-top : 0.5%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	margin-left: 2%;
+	
+}
+
+.vid {
+	position : relative;
+	padding-bottom : 56.25%;
+	padding-top : 30px;
+	height : 0;
+	overflow : hidden;
+}
+.vid iframe {
+	position : absolute;
+	top : 0;
+	left : 0;
+	width : 100%;
+	height : 100%;
+}
+footer{ /*show a little footer in the rightdown corner*/
+	position:fixed;
+	bottom:0;
+	right:0;
+	padding:1px;
+	font-weight:lighter;
+	text-decoration:none;
+	z-index:100;
+}
+footer:hover{
+	cursor:default;
+}
+/*-------Media------*/
+
+@media screen and (max-width: 478px) 	{
+body {
+	font-size: 13px;
+}
+}
+
+@media screen and (max-width: 1160px) 	{
+.chefsBarLeft {
+	width: 100%;
+}
+.chefsBarRight {
+	width: 100%;
+}
+}
+
+@media screen and (max-width: 940px) 	{
+.menuLeftBar{ 
+	width: 100%;
+}
+.listFoodCalledBar {
+	width: 100%;
+}
+}
+
+/* @media screen and (max-width: 565px) 	{
+.chefsBarLeft {
+	display: none;
+}
+.chefsBarRight {
+	display: none;
+}
+.copyChefsBar{
+	display: block;
+}
+} */
+
+@media screen and (max-width: 815px) 	{
+.left-col {
+	width: 100%;
+}
+.sidebar {
+	width: 32.8%;
+}
+}
+
+@media screen and (max-width: 540px) 	{
+.left-col {
+	width: 100%;
+}
+.sidebar {
+	width: 49.5%;
+}
+}
+
+@media screen and (max-width: 340px) 	{
+.left-col {
+	width: 100%;
+}
+.sidebar {
+	width: 100%;
+}
+}
